@@ -21,7 +21,7 @@ const ProductPreview = (props) => {
     <Link to={`/item/${props.id}`}>
       <ProductPreviewStyle>
         <PicturePosition>
-          <Thumbnail src={props.thumbnail} />
+          <Thumbnail src={props.thumbnail} alt={props.description} />
         </PicturePosition>
         <ProductInfo>
           <Price>{props.price}</Price>

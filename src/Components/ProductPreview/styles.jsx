@@ -26,8 +26,10 @@ export const Price = styled.div`
   display: flex;
   margin: 0 0 3.2rem 0;
 `;
-export const Description = styled.div`
-  /*  */
+export const Description = styled.h1`
+  font-size: 1.8rem;
+  font-weight: normal;
+  color: var(--black);
 `;
 export const AddressPosition = styled.div`
   display: flex;

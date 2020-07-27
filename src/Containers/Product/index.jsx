@@ -61,7 +61,7 @@ export default class Product extends Component {
         <Breadcrumb data={breadcrumb} />
         <Position>
           <Picture>
-            <Image src={item.picture} />
+            <Image src={item.picture} alt={item.description} />
           </Picture>
           <Info>
             <Condition>
@@ -69,7 +69,11 @@ export default class Product extends Component {
             </Condition>
             <Name>{item.title}</Name>
             <Price>{`$ ${item.price.amount}`}</Price>
-            <a href="https://www.mercadolibre.com.co/" target="_blank">
+            <a
+              href="https://www.mercadolibre.com.co/"
+              rel="nofollow"
+              target="_blank"
+            >
               <Button>Comprar</Button>
             </a>
           </Info>

@@ -32,7 +32,7 @@ const SearchBar = (props) => {
         onKeyPress={handleSubmit}
       />
       <SearchIconBox onClick={handleSubmit}>
-        <SearchIcon src={icSearch} />
+        <SearchIcon src={icSearch} alt="Icono de Busqueda" />
       </SearchIconBox>
     </SearchBarStyle>
   );

@@ -62,7 +62,7 @@ export const ProductDescription = styled.div`
 export const Title = styled.div`
   font-size: 2.8rem;
 `;
-export const Description = styled.div`
+export const Description = styled.h2`
   font-size: 1.6rem;
   margin: 3.2rem 0;
   color: gray;

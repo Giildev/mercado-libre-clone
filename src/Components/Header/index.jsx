@@ -14,7 +14,7 @@ const Header = (props) => {
     <HeaderStyle>
       <HeaderSpace>
         <Link to="/">
-          <Logo src={LogoML} />
+          <Logo src={LogoML} alt="Logo de Mercado Libre" />
         </Link>
         <SearchBar />
       </HeaderSpace>
